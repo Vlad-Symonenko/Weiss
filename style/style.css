@@ -582,21 +582,31 @@ hr{
 @media(max-width:1020px){
     .diplom-inner{
         display: block;
+        text-align: center;
     }
     .diplom-above-title{
         font-size: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .diplom-title{
         font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .diplom-under-title{
         font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .diplom-link{
         font-size: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        bottom: 50px;
     }
 }
 
@@ -690,6 +700,7 @@ hr{
 
     .footer-item-title{
         font-size: 10px;
+        padding-top: 40px;
     }
 
     .footer-item-txt{
