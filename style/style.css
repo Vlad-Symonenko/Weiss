@@ -44,8 +44,7 @@ a{
 }
 
 
-.text-above-title{
-    padding-top: 200px;
+.span-text{
     color: #929A9F;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -53,30 +52,50 @@ a{
     text-transform: uppercase;
     font-size: 15px;
     line-height: 21px;
+    margin: 0;
 }
 
-.headline-title{
-    padding-top: 15px;
-    color: #263640;
+.title{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 45px;
+    margin: 0;
+    color: #263640;
 }
 
-.text-under-title{
-    padding-top: 15px;
+.description{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: #929A9F;
     font-size: 15px;
     line-height: 29px;
-    padding-right: 196px;
     margin: 0;
+}
+
+.link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 29px;
+}
+
+.headline-info{
+    margin-top: 200px;
+}
+
+.headline-info__title{
+    padding-top: 15px;
+    color: #263640;
+}
+
+.headline-info__description{
+    padding-top: 15px;
+    padding-right: 196px;
     margin-bottom: 38px;
 }
 
-.headline-button{
+.button{
     background: #FF9900;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -93,17 +112,17 @@ a{
 }
 
 .headline-img{
-    padding-top: 96px;
+    padding-top: 95px;
     width: 595px;
     height: 750px;
 }
 
-.columns{
+.column{
     background: #F5F8FA;
     padding-bottom: 168px;
 }
 
-.column-img{
+.column-item__image{
     position: relative;
     right: 41px;
     margin: 0;
@@ -112,21 +131,10 @@ a{
 .column-title{
     padding-top: 178px;
     color: #263640;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 45px;
-    text-align: left;
-
 }
 
-.txt-under-title{
-    color: #929A9F;
-    font-family: 'Roboto', sans-serif;
+.column-description{
     font-weight: 400;
-    font-size: 19px;
-    line-height: 29px;
-    text-align: left;
     width: 50%;
 }
 
@@ -136,38 +144,25 @@ a{
     text-align: left;
 }
 
-.col-title{
-    color: #263640;
-    font-family: 'Roboto', sans-serif;
+.column-item__title{
+    width: 50%;
+    padding-top: 25px;
     font-weight: 500;
     font-size: 20px;
-    line-height: 31px;
-    width: 50%;
-    margin: 0;
-    padding-top: 25px;
+    line-height: 30px;
 }
 
-.col-under-title{
-    color: #929A9F;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 29px;
+.column-item__description{
     width: 64%;
-    margin: 0;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-.column-button{
+.column-item__link{
     color: #FF9900;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 29px;
 }
 
-.column-arrow{
+.column-item__arrow{
     padding-left: 15px;
 }
 
@@ -183,41 +178,23 @@ a{
     margin-top: 50px;
 }
 
-.diplom-above-title{
-    color: #929A9F;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+.diplom-span{
     padding-top: 100px;
     padding-left: 100px;
-    margin: 0;
 }
 
-.diplom-title{
+.diplom-info__title{
     color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 45px;
     padding-left:100px;
     padding-top: 24px;
-    margin: 0;
 }
 
-.diplom-under-title{
+.diplom-info__description{
     color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
     padding-left: 100px;
     padding-top: 24px;
     padding-bottom: 56px;
     padding-right: 72px;
-    margin: 0;
 }
 
 hr{
@@ -227,19 +204,15 @@ hr{
     margin-bottom: 100px;
 }
 
-.diplom-link{
+.diplom-info__link{
     position: relative;
     color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 29px;
     padding-left: 98px;
     bottom:80px;
     width: 100%;
 }
 
-.diplom-arrow-img{
+.diplom-info__arrow{
     padding-left: 15px;
 }
 
@@ -247,54 +220,36 @@ hr{
     margin-top: 10px;
 }
 
-.pre-inner{
+.before-inner{
     display: flex;
     justify-content: space-between;
 }
 
-.txt-above-blog{
+.before-text{
     width: 50%;
     margin-top: 80px;
 }
 
-.title-above-blog{
-    color: #263640;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+.before-text__title{
     font-size: 30px;
     line-height: 45px;
-    margin: 0;
 }
 
-.txt-under-title-blog{
+.before-text__description{
     width: 80%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 29px;
-    margin: 0;
     padding-top: 16px;
-    color: #929A9F;
 }
 
-.pre-button-div{
+.before-button-div{
     margin-top: 183px;
 }
 
-.pre-button{
-    background: #FF9900;
-    color: #FFFFFF;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+.before-button-div__button{
     font-size: 15px;
     line-height: 41px;
 }
 
-.pre-arrow{
+.before-arrow{
     padding-left: 25px;
 }
 
@@ -308,48 +263,27 @@ hr{
     padding-right: 67px;
 }
 
-.pre-title-item{
-    color: #929A9F;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 21px;
-    margin: 0;
+.before-text__span{
     margin-top: 80px;  
 }
 
-.title-item{
+.blog-item__title{
     color: #263640;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
     font-size: 20px;
     line-height: 31px;
     padding-top: 32px;
-    margin: 0;
 }
 
-.description-item{
-    color: #929A9F;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 29px;
-    margin: 0;
+.blog-item__description{
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.blog-button{
-    color: #FF9900;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 29px;
+.blog-item__link{
+    color:#FF9900;
 }
 
-.blog-arrow{
+.blog-item__arrow{
     padding-left: 17px;
 }
 
@@ -360,59 +294,32 @@ hr{
 .karrie-inner{
     display: flex;
     justify-content: space-around;
-    margin-top: 330px;
+    margin-top: 300px;
 }
 
-.karrie-above-title{
-    color: #929A9F;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 21px;
-    color: #929A9F;
+.karrie-info__span{
+    padding-bottom: 16px;
     padding-top: 100px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
 }
 
-.karrie-title{
-    color: #263640;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 45px;
-    margin: 0;
+.karrie-info__title{
     margin-bottom: 24px ;
 }
 
-.karrie-description{
-    color: #929A9F;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 29px;
-    margin: 0;
+.karrie-info__description{
     margin-bottom: 30px;
 }
 
-.karrie-button{
-    background: #FF9900;
-    color:#FFFFFF;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 41px;
+.karrie-info__button{
+    padding-left: 50px;
+    padding-right: 56px;
 }
 
-.karrie-arrow{
+.karrie-info__arrow{
     padding-left: 15px;
 }
 
-.karrie-img{
+.karrie-info__img{
     padding-top: 60px;
 }
 
@@ -426,25 +333,11 @@ hr{
     text-align: left;
 }
 
-.footer-item-title{
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
-    margin: 0;
+.footer-item__title{
     padding-top: 65px;
 }
 
-.footer-item-txt{
-    color:#FFFFFF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    margin: 0;
+.footer-item__description{
     padding-top: 10px;
 }
 
@@ -460,7 +353,7 @@ hr{
     padding-bottom:40px ;
 }
 
-.under-txt{
+.under-footer__text{
     color: #939BA0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -468,14 +361,6 @@ hr{
     line-height: 19px;
     margin:0;
     padding-top: 40px;
-}
-
-.slash{
-    color: #939BA0;
-    margin: 0;
-    padding-left: 8px;
-    padding-right: 8px;
-   padding-top: 35px;
 }
 
 /* Section "headline" */
@@ -492,29 +377,28 @@ hr{
         display: block;
     }
 
-    .text-above-title{
+    .span-text{
         font-size: 12px;
         line-height: 21px;
         padding-top: 50px;
     }
 
-    .headline-title{
+    .headline-info__title{
         font-size: 20px;
         line-height: 45px;
     }
 
-    .text-under-title{
+    .headline-info__description{
         font-size: 13px;
         line-height: 29px;
     }
 
-    .headline-button{
+    .button{
         font-size: 12px;
-        
     }
 }
 
-/* Section "columns" */
+/* Section "column" */
 @media(max-width:1176px){
     .column-img{
         max-width: 100%;
@@ -528,7 +412,7 @@ hr{
         width: 100%;
     }
 
-    .txt-under-title{
+    .column-description{
         text-align: center;
         font-size: 10px;
         width: 100%;
@@ -539,17 +423,17 @@ hr{
         display: block;
     }
 
-    .col-title{
+    .column-item__title{
         font-size: 15px;
         width: 100%;
     }
 
-    .col-under-title{
+    .column-item__description{
         font-size: 10px;
         width: 100%;
     }
 
-    .column-button{
+    .column-item__link{
         font-size: 10px;
 
     }
@@ -557,56 +441,29 @@ hr{
 
 /* Section "diplom" */
 @media(max-width:1160px){
+    .diplom-inner{
+        display: block;
+        text-align: center;
+    }
     .diplom-img{
         max-width: 100%;
         max-height: 100%;
     }
 
-    .diplom-above-title{
+    .diplom-span{
         font-size: 10px;
     }
 
-    .diplom-title{
+    .diplom-info__title{
         font-size: 20px;
     }
 
-    .diplom-under-title{
+    .diplom-info__description{
         font-size: 10px;
     }
 
-    .diplom-link{
+    .diplom-info__link{
         font-size: 10px;
-    }
-}
-
-@media(max-width:1020px){
-    .diplom-inner{
-        display: block;
-        text-align: center;
-    }
-    .diplom-above-title{
-        font-size: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .diplom-title{
-        font-size: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .diplom-under-title{
-        font-size: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .diplom-link{
-        font-size: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-        bottom: 50px;
     }
 }
 
@@ -617,12 +474,8 @@ hr{
         text-align: center;
     }
 
-    .title-above-blog{
+    .before-text__title{
         font-size: 25px;
-    }
-
-    .txt-above-blog{
-        width: 100%;
     }
 
     .txt-under-title-blog{
